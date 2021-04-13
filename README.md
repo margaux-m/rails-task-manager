@@ -1,24 +1,13 @@
-# README
+# Task Manager App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app is a simple 'To Do' task manager build with Ruby On Rails.
 
-Things you may want to cover:
+It includes basic CRUD features:
 
-* Ruby version
+- As a user, I can list tasks
+- As a user, I can view the details of a task
+- As a user, I can add a new task
+- As a user, I can edit a task (mark as completed / update title & details)
+- As a user, I can remove a task
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Done during my time at Le Wagon.
