@@ -4,10 +4,9 @@
     <li>
       <%= check_box_tag 'completed', '1', task.completed, disabled: true %>
       <%=link_to task.title, task_path(task) %> -
-      <%= link_to "Delete",
-        task_path(task),
-        method: :delete,
-        data: { confirm: "Are you sure?" } %>
+      <%= link_to task_path(task), method: :delete, data: { confirm: "Are you sure?" } do %>
+          <i class="far fa-trash-alt"></i>
+      <% end %>
     </li>
   <% end %>
 </ul>
